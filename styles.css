@@ -1,0 +1,20 @@
+.wheel {
+	border: 2px solid black;
+	border-radius: 50%;
+	margin-left: 50px;
+	position: absolute;
+	height: 55vw;
+	width: 55vw;
+	max-height: 500px;
+	max-width: 500px;
+}
+
+.line {
+	background-color: black;
+	width: 50%;
+	height: 2px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform-origin: 0% 0%; /* The transform-origin property is used to set the point around which a CSS transformation is applied. The given value will offset the origin point by 0% from the left and 0% from the top, setting it to the top left corner of the element. */
+}
